@@ -1,0 +1,295 @@
+body {
+    background-color: rgb(58, 40, 27);
+    margin: 0; 
+    padding: 0; 
+    overflow-x: hidden; 
+}
+
+.asec {
+    position: relative;
+    padding: 20px;
+    color: #fff;
+    z-index: 1;
+}
+
+.first-section::before {
+    content: "";
+    position: absolute;
+    top: 10;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('assets/image1.jpg'); 
+    background-size: cover;
+    background-color: rgb(150, 127, 107);
+    background-position: center;
+    opacity: 1; 
+    z-index: -1; 
+}
+
+.navbar {
+    background-color: rgb(167, 136, 108);
+    border-radius: 20px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.navbar ul {
+    overflow: auto;
+    padding: 0; 
+    margin: 0; 
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 15px 20px;
+}
+
+.navbar li a {
+    padding: 16px 22px;
+    text-decoration: none;
+    color: rgb(13, 38, 27);
+}
+
+.name {
+    color: rgb(208, 212, 197) !important;
+    background-color: rgb(64, 110, 73);
+    border-radius: 20px;
+}
+
+.a {
+    color: rgb(3, 69, 6);
+    margin-left: 10%;
+    padding-top: 10px;
+}
+.b {
+    margin-bottom: 5%;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 115%;
+}
+
+.icons li {
+    list-style: none;
+    font-size: xxx-large;
+}
+
+.fa-github {
+    color: rgb(58, 40, 27);
+}
+
+.fa-whatsapp {
+    color: rgb(58, 40, 27);
+}
+
+.fa-linkedin {
+    color: rgb(58, 40, 27);
+}
+
+.fa-instagram {
+    color: rgb(58, 40, 27);
+}
+
+.fa-facebook {
+    color: rgb(58, 40, 27);
+}
+
+.fa-google {
+    color: rgb(58, 40, 27);
+}
+.fa-telegram {
+    color: rgb(58, 40, 27);
+}
+
+.icondisp {
+    display: flex;
+    padding-right: 72%;
+    gap: 30px;
+}
+
+.button-container {
+    display: flex;
+    gap: 30px; 
+    margin-left: 8%;
+}
+
+.btn2 {
+    color: rgb(208, 212, 197) !important;
+    background-color: rgb(64, 110, 73);
+    border-radius: 20px;
+    padding: 2.2%;
+}
+
+.fa-html5 {
+    color: rgb(150, 127, 107);
+}
+
+.fa-css3-alt {
+    color: rgb(150, 127, 107);
+}
+
+.fa-react {
+    color: rgb(150, 127, 107);
+}
+
+.fa-js {
+    color: rgb(150, 127, 107);
+}
+
+.fa-node {
+    color: rgb(150, 127, 107);
+}
+
+.fa-npm {
+    color: rgb(150, 127, 107);
+}
+
+.fa-database {
+    color: rgb(150, 127, 107);
+}
+
+.fa-python {
+    color: rgb(150, 127, 107);
+}
+
+.fa-aws {
+    color: rgb(150, 127, 107);
+}
+
+.fa-docker {
+    color: rgb(150, 127, 107);
+}
+
+* {
+    box-sizing: border-box;
+}
+/* section 3 */
+.third-section::before {
+    content: "";
+    position: absolute;
+    top: 10;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    background-image: url('assets/image1.jpg'); 
+    background-size: cover;
+    background-color: rgb(150, 127, 107);
+    background-position: center;
+    opacity: 1; 
+    z-index: -1; 
+}
+
+.bars{
+    margin-top: 10%;
+}
+.grey {
+    width: 80%;
+    padding: 6px;
+    background-color: rgb(63, 44, 44);
+    border-radius: 50px;
+    margin: 1%;
+}
+.green1 {
+    width: 77%;
+    padding: 20px;
+    background-color: green;
+    border-radius: 50px;
+}
+.green2 {
+    width: 45%;
+    padding: 20px;
+    background-color: green;
+    border-radius: 50px;
+}
+.green3 {
+    width: 64%;
+    padding: 20px;
+    background-color: green;
+    border-radius: 50px;
+}
+.main2 {
+    display: grid;
+    grid-template-columns: 60% auto;
+
+}
+/* section 4 */
+.sec4{
+    height: 95%;
+    background-color: rgb(58, 40, 27);
+}
+.projectcard{
+    background-color: antiquewhite;
+    width: 90%;
+    padding: 1%;
+    margin: 5%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0);
+}
+.icons2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    width: 115%;
+}
+.fa-square-js{
+    color: rgb(58, 40, 27);
+}
+.fa-circle-nodes{
+    color: rgb(58, 40, 27);
+}
+.fa-star{
+    color: rgb(58, 40, 27);
+}
+.icons2 li {
+    list-style: none;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+/* section 5 */
+.sec5{
+    height: 95%;
+    background-color: rgb(150, 127, 107);
+
+}
+.circular-image {
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%; 
+    object-fit: cover;
+    border: 2px solid #000; 
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.icons5 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    width: 115%;
+}
+
+.icons5 li {
+    list-style: none;
+    font-size: xxx-large;
+}
+.icondisp5 {
+    display: flex;
+    padding-right: 100%;
+    gap: 30px;
+}
+.main5 {
+    display: grid;
+    grid-template-columns: 60% auto;
+
+}
